@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="icon" href="Logo way to move.png" type="image/x-icon">
+    <title>Cart</title>
+    <style>
+                    .table-section {
+                text-align: center;
+                justify-content: center;
+                margin: 40px;
+                padding: 50px;
+                align-items: center;
+                height: 500px;
+            }
+
+            .table-container {
+                overflow-x: auto;
+                max-width: 100%;
+                margin-top: 20px;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            th, td {
+                padding: 12px 15px;
+                border-bottom: 1px solid #ddd;
+            }
+
+            th {
+                background-color: rgb(9, 1, 37);
+                color: #fff;
+            }
+            .color{
+                color: #0684eb;
+            }
+
+            tbody tr:hover {
+                background-color: #f5f5f5;
+            }
+    </style>
+</head>
+
+<body>
+    <section class="table-section" id="table-section">
+        <h2 style="color: rgb(9, 1, 37);">Orders</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Order id</th>
+                        <th>Address</th>
+                        <th>Price</th>
+                        <th>Phone</th>
+                        <th>Sender name</th>
+                        <th>Reciever name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>234857</td>
+                        <td>
+                            <dl>
+                                <dt class="color">To:</dt>
+                                <dd>   El HARM street</dd>
+                                <dd>   Cario</dd>
+                                <dt class="color">From:</dt>
+                                <dd>   Actoper</dd>
+                                <dd>   Cario</dd>
+                            </dl>
+                        </td>
+                        <td>
+                            <dl>
+                                <dt class="color">Moving:</dt>
+                                <dd>   200 LE</dd>
+                                <dt class="color">Delivery</dt>
+                                <dd>   300 LE</dd>
+                                <dt class="color">Total:</dt>
+                                <dd>   500 LE</dd>
+                            </dl>
+                        </td>
+                        <td>0125789386</td>
+                        <td>Mohaned</td>
+                        <td>khaled</td>
+                    </tr>
+                    
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+</body>
